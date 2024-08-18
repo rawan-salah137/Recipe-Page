@@ -1,0 +1,111 @@
+* {
+    padding-left: 5px;
+}
+
+.all {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.title {
+    color: hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.description {
+    color: hsl(24, 5%, 18%);
+    font-size: 16px;
+}
+
+.details {
+    padding: 10px 0 10px 20px;
+    background-color: hsl(332, 29%, 90%) ;
+}
+
+.prep {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(332, 51%, 32%);
+}
+
+ul li {
+    font-size: 16px;
+    padding: 10px;
+    color: hsl(24, 5%, 18%);
+}
+
+.prept::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.ing {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingre::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.ins {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+}
+
+.first::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+span {
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: hsl(24, 5%, 18);
+}
+
+.nut {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+}
+
+h4 {
+    color: hsl(24, 5%, 18%);
+}
+
+th {
+    color: hsl(24, 5%, 18%);
+}
+
+td {
+    color: hsl(14, 45%, 36%);
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding-left: 300px;
+}
