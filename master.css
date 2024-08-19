@@ -1,7 +1,28 @@
 * {
-    padding-left: 5px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+.all {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 900px;
+    padding: 25px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+body{
+    background-color: hsl(332, 29%, 90%);
+    line-height: 1.8rem;
+    height: auto;
+}
 .all {
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -95,6 +116,7 @@ h4 {
 }
 
 th {
+    padding: 10px 0;
     color: hsl(24, 5%, 18%);
 }
 
@@ -103,6 +125,7 @@ td {
 }
 
 th, td {
+    text-align: left;
     border-bottom: 1px solid #ddd;
 }
 
