@@ -4,43 +4,33 @@
     box-sizing: border-box;
 }
 
-.all {
-    background-color: hsl(0, 0%, 100%);
-    max-width: 900px;
-    padding: 25px;
-    position: absolute;
-    top: 32%;
-    left: 50%;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
 body{
-    background-color: hsl(332, 29%, 90%);
-    line-height: 1.8rem;
-    height: auto;
+    background-color: rgb(238, 232, 224);
 }
+
 .all {
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    background-color:hsl(0, 0%, 100%);
+    width:655px;
+    height: 1395px;
+    border-radius:10px;
+    margin: 35px auto ;
+    padding-bottom: 20px;
 }
 
 img {
-    width: 100%;
-    height: auto;
-    border-radius: 5%;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+    margin: 20px;
+    width:600px;
+    height:277.7px;
+    padding:25px 25px 10px;
+    border-radius:35px ;
+    -webkit-border-radius:35px ;
+    -moz-border-radius:35px ;
+    -ms-border-radius:35px ;
+    -o-border-radius:35px ;
 }
 
 .title {
+    text-align: center;
     color: hsl(24, 5%, 18%);
     font-family: "Young Serif", serif;
     font-weight: 400;
@@ -48,11 +38,13 @@ img {
 }
 
 .description {
+    text-align: center;
     color: hsl(24, 5%, 18%);
     font-size: 16px;
 }
 
 .details {
+    margin: 20px;
     padding: 10px 0 10px 20px;
     background-color: hsl(332, 29%, 90%) ;
 }
@@ -65,6 +57,7 @@ img {
 }
 
 ul li {
+    margin: 0 20px;
     font-size: 16px;
     padding: 10px;
     color: hsl(24, 5%, 18%);
@@ -75,6 +68,7 @@ ul li {
 }
 
 .ing {
+    margin: 20px;
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
@@ -85,7 +79,13 @@ ul li {
     color: hsl(14, 45%, 36%);
 }
 
+.first {
+    width: 600px;
+    margin: 2px 30px;
+}
+
 .ins {
+    margin: 20px;
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
@@ -104,6 +104,7 @@ span {
 }
 
 .nut {
+    margin: 20px;
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
@@ -111,23 +112,33 @@ span {
 }
 
 h4 {
+    margin-left: 20px;
     color: hsl(24, 5%, 18%);
 }
 
 th {
+    margin-left: 20px;
     padding: 10px 0;
     color: hsl(24, 5%, 18%);
 }
 
 td {
+    text-align: left;
+    vertical-align: center;
+    padding: 1%;
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    padding-left: 300px;
     color: hsl(14, 45%, 36%);
 }
 
 th, td {
-    text-align: left;
     border-bottom: 1px solid #ddd;
 }
 
-td {
-    padding-left: 300px;
+table {
+    width: 100%;
+}
+
+.last {
+    border-bottom: none;
 }
